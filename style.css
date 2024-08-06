@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: url('background\ pic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+
+    display: grid;
+    grid-template-columns: 38%;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    width: 100%;
+}
+
+p{
+    color: #fff;
+    font-size: 5vw;
+    padding-bottom: 3rem;
+}
+
+#clock {
+    width: 100%;
+    text-align: center;
+}
+
+#progressBarContainer {
+    margin-bottom: 40px;
+    width: 55%;
+    transform: rotate(180deg);
+}
+
+.buttonSection {
+    width: 100%;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.roundButton{
+    border-radius: 50% ;
+    background-color: #fff;
+    border: 0;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    transition: all .3s;
+}
+
+.roundButton:hover {
+    transform: scale(1.2);
+    background-color: rgba(255, 68, 0, 0.856);
+}
+
+
+
+.selector {
+    background-color: #fff;
+    padding: .8rem 1.4rem .9rem .8rem;
+    margin: 10px;
+    width: 200px;
+    border-radius: .5rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 1rem;
+    text-align: center;
+}
